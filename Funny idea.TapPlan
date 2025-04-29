@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestPlan type="OpenTap.TestPlan">
+  <Steps>
+    <TestStep type="OpenTap.Plugins.BasicSteps.DialogStep" Id="06e62841-78c0-4637-825b-d09f04e04f4e">
+      <Message>Hooray</Message>
+      <Title>Viva 2025</Title>
+      <Buttons>OkCancel</Buttons>
+      <PositiveAnswer>NotSet</PositiveAnswer>
+      <NegativeAnswer>NotSet</NegativeAnswer>
+      <UseTimeout>false</UseTimeout>
+      <Timeout>5</Timeout>
+      <DefaultAnswer>NotSet</DefaultAnswer>
+      <ShowPicture>false</ShowPicture>
+      <PictureSource />
+      <PictureDescription />
+      <Name Metadata="Step Name">Dialog</Name>
+      <ChildTestSteps />
+    </TestStep>
+    <TestStep type="OpenTap.Plugins.BasicSteps.DelayStep" Id="c2a213e0-a2a8-4f81-bcf2-525f6a25aacb">
+      <DelaySecs>0.1</DelaySecs>
+      <Name Metadata="Step Name">Delay</Name>
+      <ChildTestSteps />
+    </TestStep>
+    <TestStep type="OpenTap.Plugins.BasicSteps.DialogStep" Id="f3996d6e-b72b-46f8-957d-b5524c18ec55">
+      <Message>Keep quiet</Message>
+      <Title>Presentation going on</Title>
+      <Buttons>OkCancel</Buttons>
+      <PositiveAnswer>NotSet</PositiveAnswer>
+      <NegativeAnswer>NotSet</NegativeAnswer>
+      <UseTimeout>false</UseTimeout>
+      <Timeout>5</Timeout>
+      <DefaultAnswer>NotSet</DefaultAnswer>
+      <ShowPicture>false</ShowPicture>
+      <PictureSource />
+      <PictureDescription />
+      <Name Metadata="Step Name">Dialog 2</Name>
+      <ChildTestSteps />
+    </TestStep>
+  </Steps>
+  <Package.Dependencies>
+    <Package Name="OpenTAP" Version="^9.27.1+49587562" />
+  </Package.Dependencies>
+</TestPlan>
